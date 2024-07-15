@@ -25,5 +25,5 @@ void main() {
 
   //adding more than one key or values{many things}
 
-  topics.addAll({"zilla":"chapo","brian":"mbosho"})
+  topics.addAll({"zilla": "chapo", "brian": "mbosho"});
 }
