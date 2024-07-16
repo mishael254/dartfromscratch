@@ -26,4 +26,18 @@ void main() {
   //adding more than one key or values{many things}
 
   topics.addAll({"zilla": "chapo", "brian": "mbosho"});
+
+  print(topics);
+  print(topics.length);
+
+  //removing objects from maps,
+  topics.remove("John");
+
+  print(topics);
+  print(topics.length);
+  //removing everything from the maps
+
+  topics.clear();
+  print(topics);
+  print(topics.length);
 }
